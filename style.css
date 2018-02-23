@@ -1,0 +1,14 @@
+body {
+    background: rgb(0, 166, 255);
+}
+
+#header {
+    float: right;
+    width: auto;
+    height: 600px;
+}
+
+.container-header {
+    width: auto;
+    height: auto;
+}
