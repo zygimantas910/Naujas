@@ -194,8 +194,8 @@ h1 {
     position: absolute;
     bottom: .75em;
     left: .5em;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-family: Montserrat;
+    font-size: 14px;
     text-decoration: underline;
 }
 
@@ -203,9 +203,9 @@ h1 {
     position: absolute;
     bottom: .75em;
     right: .5em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 1em;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .card__analytics {
@@ -244,24 +244,86 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.card__test-lab {
+    background-image: url("images/assets/testlab.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__Crashlytics {
+    background-image: url("images/assets/discovery-cards-crashlytics.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__notifications {
+    background-image: url("images/assets/notifications.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__remote-config {
+    background-image: url("images/assets/config.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__dynamic-links {
+    background-image: url("images/assets/dynamiclinks.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__admob {
+    background-image: url("images/assets/amb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__cloud-messaging {
+    background-image: url("images/assets/cloudmessaging.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__adwords {
+    background-image: url("images/assets/awrds.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__appindexing {
+    background-image: url("images/assets/appindexing.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__predictions {
+    background-image: url("images/assets/predictions.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .footer {
     min-height: 50px;
 }
 
-.foot-text {
+.footer-links {
+    font-family: Montserrat;
+    font-size: 12px;
+    color: #179eed;
     text-align: center;
 }
 
-.f-link {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color: #1699e5;
-    transition: .2s;
+.footer-name {
+    margin-top: -30px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #179eed;
+    text-align: center;
 }
 
-.f-link:hover {
-    font-size: 2em;
-}
 
 /* Small devices (portrait phones, less than 768px) */
 @media only screen and (max-width: 767px) {
