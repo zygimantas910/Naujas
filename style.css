@@ -1,13 +1,333 @@
+html {
+    width: 100%;
+    margin: 0;
+}
+
 body {
+    overflow-x:hidden;
+    margin: 0;
+    font-family: 'Roboto', sans-serif, Arial, Helvetica;
+    background-color: rgb(207, 216, 220);
+}
+
+.wrapper {
+    margin: 0;
+}
+
+.block-intro {
+    background-image: url("images/assets/introbg.png");
+    height: calc(100vh - 56px);
+    background-size: 768px 672px;
+    background-position: 100% 70%;
+    background-repeat: no-repeat;
+    background-color: #1699e5;
+    box-shadow: inset -50px 0 100px #1699e5;
+}
+
+.container-intro {
+    position: relative;
+    top: 5em;
+    right: -5em;
 
 }
 
-#header {
-    float: right;
-    width: auto;
-    height: 600px;
+.welcome {
+    padding: 0;
+    font-size: 1.3em;
+    color: white;
 }
 
-.container-header {
-
+h1 {
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.25em;
+    font-weight: bolder;
+    color: white;
 }
+
+.icon-block {
+    display: flex;
+    width: 90vw;
+    max-width: 500px;
+    margin-top: 4em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color: #1699e5;
+    border-radius: 50%;
+    border: solid 3px white;
+    font-size: 3.5em;
+    color: white;
+}
+
+.icon-big:hover {
+    background-color: #117ebd;
+}
+
+.icon-big2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color: #1699e5;
+    border-radius: 50%;
+    border: solid 3px white;
+    font-size: 3.5em;
+    color: white;
+}
+
+.icon-big2:hover {
+    background-color: #55ff3b;
+}
+
+.icon-big3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color: #1699e5;
+    border-radius: 50%;
+    border: solid 3px white;
+    font-size: 3.5em;
+    color: white;
+}
+
+.icon-big3:hover {
+    background-color: #ff2137;
+}
+
+.ico-link {
+    color: white;
+}
+
+.ico-link:hover {
+    color: white;
+}
+
+.icon-description-block {
+    display: flex;
+    width: 85vw;
+    max-width: 480px;
+    margin-top: .75em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ico-descript-txt {
+    text-align: center;
+    font-size: .85em;
+    font-weight: 600;
+    color: white;
+}
+
+.discover {
+    position: relative;
+    top: -2.5em;
+    left: 8.7em;
+    height: 2em;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.block-offers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -5em;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 89%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;   
+    width: 300px;
+    height: 300px;
+    margin: 1em .5em .5em .5em;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(141, 141, 141);
+}
+
+.card__txt-wrapper {   
+    width: 100%;
+    height: 174px;
+}
+
+.card-title {
+    float: left;
+    margin-left: .5em;
+    margin-top: .75em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.card-description {
+    float: left;
+    clear: both;
+    margin-left: .75em;
+    margin-right: .5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    color: grey;
+}
+
+.learn-more {
+    position: absolute;
+    bottom: .75em;
+    left: .5em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.get-started {
+    position: absolute;
+    bottom: .75em;
+    right: .5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.card__analytics {
+    background-image: url("images/assets/analytics.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__authentication {
+    background-image: url("images/assets/auth.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__database {
+    background-image: url("images/assets/database.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__storage {
+    background-image: url("images/assets/storage.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__hosting {
+    background-image: url("images/assets/hosting.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card__cloud-functions {
+    background-image: url("images/assets/functions.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    min-height: 50px;
+}
+
+.foot-text {
+    text-align: center;
+}
+
+.f-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #1699e5;
+    transition: .2s;
+}
+
+.f-link:hover {
+    font-size: 2em;
+}
+
+/* Small devices (portrait phones, less than 768px) */
+@media only screen and (max-width: 767px) {
+    .block-intro {
+    height: calc(100vh - 60px - 13vh);
+    background-size: 135%;
+    background-position: -20% 34%;
+    }
+
+    .container-intro {
+        position: relative;
+        top: 4em;
+        left: 1.25em;
+    }
+
+    .block-offers {
+        top: 1em;
+    }
+
+    .cards-wrapper {
+        width: 540px;
+        height: 400px;
+    }
+
+    .card__txt-wrapper {   
+        width: 100%;
+        height: 150px;
+    }
+
+    .card {
+        width: 520px;
+        height: 370px;
+        margin-top: .75em;
+    }
+
+    .discover {
+        top: 2em;
+        left: 1.5em;
+        font-size: 1em;
+        font-weight: 600;
+        color: rgb(105, 105, 105);
+    }
+}
+
+/* Medium devices (tablets, from 768px up to 992px) */
+/* @media only screen 
+and (min-width: 768px)
+and (max-width: 991px) {
+    .block-intro {
+    background-size: 85%;
+    background-position: 290% 40%;
+    }
+    .container-intro {
+        position: relative;
+        top: 5.5em;
+        left: 8.5em;
+    }
+    .discover {
+        position: relative;
+        top: -5.5em;
+        left: 8.5em;
+    }
+    .block-offers {
+        top: -5.5em;
+    }
+    .block-intro {
+        height: 100vh;
+    }
+} */
